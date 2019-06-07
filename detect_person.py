@@ -20,7 +20,7 @@ def detect(
         conf_thres=0.5,
         nms_thres=0.5,
         save_txt=False,
-        save_images=True,
+        save_images=False,
         webcam=False
 ):
     device = torch_utils.select_device()
